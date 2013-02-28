@@ -1,0 +1,5 @@
+<p>Follow the link below to log in:</p>
+
+<p><%= link_to new_session_url(@resource, :params => {:auth_token => @resource.authentication_token}), new_session_url(@resource, :params => {:auth_token => @resource.authentication_token}) %></p>
+
+<p>If you did not request this email, please ignore this.</p>

@@ -1,0 +1,8 @@
+<h2>Login</h2>
+
+<%= simple_form_for resource, :as => resource_name, :url => passwordless_path(resource_name), :html => { :method => :post } do |f| %>
+  <%= devise_error_messages! %>
+
+  <%= f.input :email %>
+  <%= f.submit "Send login link" %>
+<% end %>

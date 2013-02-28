@@ -1,0 +1,8 @@
+en:
+  devise:
+    passwordless:
+      send_instructions: 'A link to log in has been sent to %{email}.'
+      invalid_login_url: "That's not a valid login url."
+  mailer:
+    login_instructions:
+      subject: 'Login Instructions'
